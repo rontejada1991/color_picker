@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(23, 23, 23);
+  font-family: "Montserrat", "Avenir";
+  margin: 0;
+}
+
+.square {
+  background: purple;
+  border-radius: 15%;
+  float: left;
+  margin: 1.66%;
+  padding-bottom: 30%;
+  transition: background 0.5s;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  width: 30%;
+}
+
+#container {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+h1 {
+  background-color: steelblue;
+  color: white;
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+#colorDisplay {
+  font-size: 200%;
+}
+
+#stripe {
+  background-color: white;
+  color: black;
+  height: 30px;
+  text-align: center;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
+}
+
+.difficultySelected {
+  color: white;
+  background: steelblue;
+}
+
+button {
+  border: none;
+  background: none;
+  color: steelblue;
+  font-size: inherit;
+  font-weight: 700;
+  height: 100%;
+  letter-spacing: 1px;
+  outline: none;
+  text-transform: uppercase;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+}
+
+button:hover {
+  color: white;
+  background: steelblue;
+}
+
+#counter {
+  position: absolute;
+  padding: 5px;
+  padding-bottom: 5px;
+  right: 0;
+}
+
+#correct_times, #incorrect_times {
+  display: inline;
+  font-size: 200%;
+  color: white;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
